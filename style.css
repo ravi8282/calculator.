@@ -1,0 +1,58 @@
+﻿:root {
+  --calc-bg: #f5efe7;
+  --calc-card: #1f2937;
+  --calc-border: #111827;
+  --calc-display: #0f172a;
+  --calc-text: #f9fafb;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, #fff3e0, #e0f2fe 40%, #f5f5f4 70%);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.calculator-wrap {
+  padding: 2rem 0;
+}
+
+.calc-card {
+  background: var(--calc-card);
+  border: 2px solid var(--calc-border);
+  border-radius: 1rem;
+}
+
+.calc-display {
+  background: var(--calc-display);
+  color: var(--calc-text);
+  border: 1px solid #0b1222;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.calc-display:focus {
+  box-shadow: none;
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: 0.85rem 0;
+  border-radius: 0.75rem;
+}
+
+.btn-dark {
+  background: #111827;
+  border-color: #0b1222;
+}
+
+.btn-dark:hover {
+  background: #1f2937;
+}
+
+.btn-fn {
+  background: #f3f4f6;
+}
+
+.card-footer {
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
